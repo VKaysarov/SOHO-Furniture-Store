@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document</title>
+	<link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+<header>
+		<div>
+			<label for="burger-menu">
+				<div>
+					<div id="menu"></div>
+				</div>
+			</label>
+			<input type="checkbox" id="burger-menu">
+			<div class="menu-card">
+				<div class="menu-card__header">
+					<form action="#">
+						<input type="search" placeholder="Search">
+					</form>
+					<div class="close">
+						<label for="burger-menu">✖</label>
+					</div>
+				</div>
+				<div class="menu-card__body">
+					<ul>
+						<li><a href="#">Furniture</a></li>
+						<li><a href="#">Decoration</a></li>
+						<li><a href="#">Lighting</a></li>
+						<li><a href="#">Electronics</a></li>
+					</ul>
+				</div>
+				<div class="menu-card__footer">
+					<ul>
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">Contact Us</a></li>
+						<li><a href="#">Delivery</a></li>
+						<li><a href="#">Returns</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="logo">
+			<h1>SOHO</h1>
+		</div>
+		<div>
+			<label for="cart">
+				<img src="img/bag.png" alt="cart">
+			</label>
+			<input type="checkbox" id="cart">
+			<div class="cart-card">
+				<div class="cart-card__header">
+					<div id="count-order">2</div>
+					<a href="#" class="close">
+						<label for="cart">✖</label>
+					</a>
+				</div>
+				<div class="cart-card__body">
+					<div class="cart-card__item">
+						<div><img src="img/2.png" alt="item"></div>
+						<div class="item__info">
+							<h2>Bright Wall Clock</h2>
+							<div>
+								<div class="price">$399</div>
+								<a href="#">Delete</a>
+							</div>
+						</div>
+					</div>
+					<div class="cart-card__item">
+						<div><img src="img/4.png" alt="item"></div>
+						<div class="item__info">
+							<h2>Bright Wall Clock</h2>
+							<div>
+								<div class="price">$399</div>
+								<a href="#">Delete</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="cart-card__footer">
+					<div class="cart-card__total-price">
+						Total: $308
+					</div>
+					<div class="cart-card__actions">
+						<a href="#">CHEKOUT</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<section id="slider-wrapper">
+			<input type="radio" name="slider" id="slide1" checked>
+			<input type="radio" name="slider" id="slide2">
+			<input type="radio" name="slider" id="slide3">
+			<div class="slide">
+				<div class="item__info">
+					<h1>Sammen Armchair</h1>
+					<div>
+						<div class="price">$399</div>
+						<a href="item.html">Buy Now</a>
+					</div>
+				</div>
+				<div>
+					<img src="img/slider2.png" alt="slider">
+				</div>
+			</div>
+			<div class="slide">
+				<div class="item__info">
+					<h1>Sammen Armchair</h1>
+					<div>
+						<div class="price">$399</div>
+						<a href="item.html">Buy Now</a>
+					</div>
+				</div>
+				<div>
+					<img src="img/slider3.png" alt="slider">
+				</div>
+			</div>
+			<div class="slide">
+				<div class="item__info">
+					<h1>Sammen Armchair</h1>
+					<div>
+						<div class="price">$399</div>
+						<a href="item.html">Buy Now</a>
+					</div>
+				</div>
+				<div>
+					<img src="img/slider2.png" alt="slider">
+				</div>
+			</div>
+		</section>
+		<section id="goods-wrapper">
+			<div>
+				<ul>
+					<li>Featured</li>
+					<li>Furniture</li>
+					<li>Decoration</li>
+					<li>Lighting</li>
+					<li>Electronics</li>
+				</ul>
+				<select name="category" id="category">
+					<option value="Featured">Featured</option>
+					<option value="Furniture">Furniture</option>
+					<option value="Decoration">Decoration</option>
+					<option value="Lighting">Lighting</option>
+					<option value="Electronics">Electronics</option>
+				</select>
+			</div>
+			<input type="checkbox" id="showMore">
+			<div id="goods">
+				<div>
+					<img src="img/1.png" alt="6.png">
+					<div>FURNITURE</div>
+					<h2>Big Black Chair</h2>
+					<div class="price">$249</div>
+				</div>
+
+				<div>
+					<img src="img/2.png" alt="5.png">
+					<div>DECORATION</div>
+					<h2>Bright Wall Clock</h2>
+					<div class="price">$99</div>
+				</div>
+
+				<div id="special">
+					<h2></h2>
+					<div class="price"></div>
+				</div>
+
+				<div id="sale">
+					<h1>60<span>%</span></h1>
+					<h2>FLASH SALE</h2>
+					<hr>
+					<p>Just use coupon code <br> 60WINTER for getting your <br> discount</p>
+				</div>
+
+				<div>
+					<img src="img/4.png" alt="3.png">
+					<div>DECORATION</div>
+					<h2>Stewie Floor Lamp</h2>
+					<div class="price">$399</div>
+				</div>
+
+				<div>
+					<img src="img/5.png" alt="3.png">
+					<div>FURNITURE</div>
+					<h2>Classic Chair</h2>
+					<div class="price">$249</div>
+				</div>
+
+				<div>
+					<img src="img/6.png" alt="3.png">
+					<div>FURNITURE</div>
+					<h2>Sheep Bench Felt</h2>
+					<div class="price">$129</div>
+				</div>
+
+				<div>
+					<img src="img/7.png" alt="3.png">
+					<div>ELECTRONICS</div>
+					<h2>Vifa Loudspeaker</h2>
+					<div class="price">$449</div>
+				</div>
+
+				<div>
+					<img src="img/8.png" alt="3.png">
+					<div>LIGHTING</div>
+					<h2>Muuto Lamp</h2>
+					<div class="price">$399</div>
+				</div>
+				<div>
+					<img src="img/6.png" alt="3.png">
+					<div>FURNITURE</div>
+					<h2>Sheep Bench Felt</h2>
+					<div class="price">$129</div>
+				</div>
+
+				<div>
+					<img src="img/7.png" alt="3.png">
+					<div>ELECTRONICS</div>
+					<h2>Vifa Loudspeaker</h2>
+					<div class="price">$449</div>
+				</div>
+
+				<div>
+					<img src="img/8.png" alt="3.png">
+					<div>LIGHTING</div>
+					<h2>Muuto Lamp</h2>
+					<div class="price">$399</div>
+				</div>
+			</div>
+			<label for="showMore">
+				<div id="show-more">
+					<button><label for="showMore">Show More</label></button>
+				</div>
+			</label>
+		</section>
+		<section>
+			<div>
+				<ul id="social-icon">
+					<li><img src="img/f.png" alt="social"></li>
+					<li><img src="img/bird.png" alt="social"></li>
+					<li><img src="img/icon.png" alt="social"></li>
+				</ul>
+			</div>
+			<div id="subscribe">
+				<form action="#">
+					<div><label for="email">Subscribe to get <span>update</span></label></div>
+					<div><input type="email" id="email" placeholder="Your e-mail..."></div>
+					<div><button>Subscribe</button></div>
+				</form>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<div><h2>About Us</h2></div>
+		<div>
+			<div id="about">
+				<p>SOHO make it possible for everyone to create a unique and personal look by introducing a large range of different fabrics, lovely patterns and beautiful colors. Thank your for your attention.</p>
+			</div>
+			<div id="map-site">
+				<ul>
+					<li><a href="#">Featured</a></li>
+					<li><a href="#">Furniture</a></li>
+					<li><a href="#">Decoration</a></li>
+					<li><a href="#">Electronics</a></li>
+					<li><a href="#">Lighting</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Contact Us</a></li>
+					<li><a href="#">Delivery</a></li>
+					<li><a href="#">Returns</a></li>
+				</ul>
+				<ul>
+					<li>Copyright 2016 Soho Theme. Powered by <a href="#">Shopify</a></li>
+					<li>
+						<ul id="payment">
+							<li><img src="img/visa.png" alt=""></li>
+							<li><img src="img/mastercard.png" alt=""></li>
+							<li><img src="img/paypal.png" alt=""></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

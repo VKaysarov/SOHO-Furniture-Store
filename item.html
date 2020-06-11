@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document</title>
+	<link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+	<header>
+		<div>
+			<label for="burger-menu">
+				<div>
+					<div id="menu"></div>
+				</div>
+			</label>
+			<input type="checkbox" id="burger-menu">
+			<div class="menu-card">
+				<div class="menu-card__header">
+					<form action="#">
+						<input type="search" placeholder="Search">
+					</form>
+					<div class="close">
+						<label for="burger-menu">✖</label>
+					</div>
+				</div>
+				<div class="menu-card__body">
+					<ul>
+						<li><a href="#">Furniture</a></li>
+						<li><a href="#">Decoration</a></li>
+						<li><a href="#">Lighting</a></li>
+						<li><a href="#">Electronics</a></li>
+					</ul>
+				</div>
+				<div class="menu-card__footer">
+					<ul>
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">Contact Us</a></li>
+						<li><a href="#">Delivery</a></li>
+						<li><a href="#">Returns</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="logo">
+			<h1>SOHO</h1>
+		</div>
+		<div>
+			<label for="cart">
+				<img src="img/bag.png" alt="cart">
+			</label>
+			<input type="checkbox" id="cart">
+			<div class="cart-card">
+				<div class="cart-card__header">
+					<div id="count-order">2</div>
+					<a href="#" class="close">
+						<label for="cart">✖</label>
+					</a>
+				</div>
+				<div class="cart-card__body">
+					<div class="cart-card__item">
+						<div><img src="img/2.png" alt="item"></div>
+						<div class="item__info">
+							<h2>Bright Wall Clock</h2>
+							<div>
+								<div class="price">$399</div>
+								<a href="#">Delete</a>
+							</div>
+						</div>
+					</div>
+					<div class="cart-card__item">
+						<div><img src="img/4.png" alt="item"></div>
+						<div class="item__info">
+							<h2>Bright Wall Clock</h2>
+							<div>
+								<div class="price">$399</div>
+								<a href="#">Delete</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="cart-card__footer">
+					<div class="cart-card__total-price">
+						Total: $308
+					</div>
+					<div class="cart-card__actions">
+						<a href="#">CHEKOUT</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<!-- (nav>div*2)+(section>(div>img)+(h1>span)+(div>form>(select>option*3)+input[type=int]+button{Add to Cart})+(div>p)+div>div*2>p)+section>div*4>img -->
+
+		<!-- На разметку ушло 8 минут 15 секунд -->
+
+		<nav>
+			<div>Back to Electronics</div>
+			<div>Previes • Next</div>
+		</nav>
+		<section class="stack">
+			<div><img src="img/item_0001s_0000_pic.jpg" alt="item"></div>
+			<div>
+				<h1>Braun Watch 1223 • <span>$399</span></h1>
+			</div>
+			<div>
+				<form action="#">
+					<select name="color" id="selectColor">
+						<option value="Light Grey">Light Grey</option>
+						<option value="green">Black</option>
+						<option value="green">Orange</option>
+						<option value="blue">Light Blue</option>
+					</select>
+					<input type="number" value="1">
+					<button>Add to Cart</button>
+				</form>
+			</div>
+			<div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi inventore unde iste officia porro dolorum, atque modi ad, nemo obcaecati placeat quibusdam quos tempore commodi ipsam dicta rerum! Molestiae, vero.</p>
+			</div>
+			<div class="stack__gorizontal">
+				<div>
+					<p>
+						<p><b>Dimensions:</b>26.7 cm / 9 cm / 38.2 cm</p>
+						<p><b>Weight:</b> 4.65 kg</p>
+						<p><b>Material:</b>Wool, Aluminum</p>
+						<p><b>Colors:</b>Light Grey, Red, Black</p>
+					</p>
+				</div>
+				<div>
+					<p>
+						<p><b>Dimensions:</b>26.7 cm / 9 cm / 38.2 cm</p>
+						<p><b>Weight:</b> 4.65 kg</p>
+						<p><b>Material:</b>Wool, Aluminum</p>
+						<p><b>Colors:</b>Light Grey, Red, Black</p>
+					</p>
+				</div>
+			</div>
+		</section>
+		<section id="items">
+			<div><img src="img/item_0001s_0001_pic.jpg" alt="item"></div>
+			<div><img src="img/item_0001s_0002_pic.jpg" alt="item"></div>
+			<div><img src="img/item_0001s_0003_pic.jpg" alt="item"></div>
+			<div><img src="img/item_0001s_0004_pic.jpg" alt="item"></div>
+		</section>
+		<section>
+			<div>
+				<ul id="social-icon">
+					<li><img src="img/f.png" alt="social"></li>
+					<li><img src="img/bird.png" alt="social"></li>
+					<li><img src="img/icon.png" alt="social"></li>
+				</ul>
+			</div>
+			<div id="subscribe">
+				<form action="#">
+					<div><label for="email">Subscribe to get <span>update</span></label></div>
+					<div><input type="email" id="email" placeholder="Your e-mail..."></div>
+					<div><button>Subscribe</button></div>
+				</form>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<div><h2>About Us</h2></div>
+		<div>
+			<div id="about">
+				<p>SOHO make it possible for everyone to create a unique and personal look by introducing a large range of different fabrics, lovely patterns and beautiful colors. Thank your for your attention.</p>
+			</div>
+			<div id="map-site">
+				<ul>
+					<li><a href="#">Featured</a></li>
+					<li><a href="#">Furniture</a></li>
+					<li><a href="#">Decoration</a></li>
+					<li><a href="#">Electronics</a></li>
+					<li><a href="#">Lighting</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Contact Us</a></li>
+					<li><a href="#">Delivery</a></li>
+					<li><a href="#">Returns</a></li>
+				</ul>
+				<ul>
+					<li>Copyright 2016 Soho Theme. Powered by <a href="#">Shopify</a></li>
+					<li>
+						<ul id="payment">
+							<li><img src="img/visa.png" alt=""></li>
+							<li><img src="img/mastercard.png" alt=""></li>
+							<li><img src="img/paypal.png" alt=""></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
